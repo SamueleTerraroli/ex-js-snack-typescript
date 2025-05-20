@@ -16,3 +16,12 @@ if (typeof data === 'string') {
 } else {
   console.log('tipo non supportato')
 }
+
+//dichiarazione di un type alias
+type Dipendente = {
+  nome: string,
+  cognome: string,
+  annoNascita: number,
+  sesso: 'm' | 'f',
+  anniDiServizio: number[]
+}
